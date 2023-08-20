@@ -19,7 +19,9 @@ const styles = StyleSheet.create({
   goalItem: {
     margin: 8,
     borderRadius: 6,
-    backgroundColor: "#5e0acc",
+    backgroundColor: "#B3B3B3",
+    width: 320,
+    height: 48,
   },
   pressedItem: {
     opacity: 0.5,
@@ -27,5 +29,6 @@ const styles = StyleSheet.create({
   goalText: {
     color: "white",
     padding: 8,
+    fontSize: 20,
   },
 });
